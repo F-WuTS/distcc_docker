@@ -1,0 +1,31 @@
+services: 
+  balancing: 
+    image: nginx
+    volumes: 
+    - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+    - "3632:3632"
+
+  distcc_1:
+    build: ./distcc_image
+
+  distcc_2:
+    build: ./distcc_image
+
+  distcc_3:
+    build: ./distcc_image
+
+  distcc_4:
+    build: ./distcc_image
+
+  distcc_5:
+    build: ./distcc_image
+
+  distcc_6:
+    build: ./distcc_image
+
+  distcc_7:
+    build: ./distcc_image
+
+  distcc_8:
+    build: ./distcc_image
