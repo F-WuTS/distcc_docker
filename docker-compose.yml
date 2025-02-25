@@ -18,15 +18,3 @@ services:
 
   distcc_4:
     build: ./distcc_image
-
-  distcc_5:
-    build: ./distcc_image
-
-  distcc_6:
-    build: ./distcc_image
-
-  distcc_7:
-    build: ./distcc_image
-
-  distcc_8:
-    build: ./distcc_image
