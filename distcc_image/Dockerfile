@@ -27,8 +27,8 @@ ENTRYPOINT [\
 
 CMD [\
   "--allow", "0.0.0.0/0", \
-  "--nice", "5", \
-  "--jobs", "5" \
+  "--nice", "2", \
+  "--jobs", "2" \
 ]
 
 EXPOSE \
